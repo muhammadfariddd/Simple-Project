@@ -1,0 +1,90 @@
+body {
+    background-image: url(memphis-blue-background-with-halftone-line-elements/SL-043021-42650-28.jpg);
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 350px;
+    height: 400px;
+    background-color: black;
+    text-align: center;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding: 15px auto 25px;
+}
+
+.container h1 {
+    padding-top: 55px;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.container .user {
+    margin: 1px auto 25px;
+    background: none;
+    border: 0;
+    border: 2px solid royalblue;
+    width: 200px;
+    padding: 14px;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+}
+
+.container .pw {
+    background: none;
+    border: 0;
+    border: 2px solid royalblue;
+    width: 200px;
+    padding: 14px;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+}
+
+.container .login {
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 30px auto 20px;
+    background: none;
+    border: 0;
+    border: 2px solid darkviolet;
+    width: 120px;
+    padding: 18px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.container a{
+    text-decoration: none;
+    color: #555;
+}
+
+/* Animation */
+.container .user:focus {
+    border: 2px solid darkviolet;
+    width: 270px;
+    transition: all 0.7s;
+}
+
+.container .pw:focus {
+    border: 2px solid darkviolet;
+    width: 270px;
+    transition: all 0.7s;
+}
+
+.container .login:hover {
+    font-weight: bold;
+    font-size: 15px;
+    background: plum;
+    border: plum;
+}
+
+.container a:hover{
+color: red;
+}
