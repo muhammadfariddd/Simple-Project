@@ -1,6 +1,7 @@
 body {
     background-image: url(memphis-blue-background-with-halftone-line-elements/SL-043021-42650-28.jpg);
-    font-family: sans-serif;
+    background-size: cover;
+    font-family: 'Poppins', 'Quicksand', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -68,21 +69,23 @@ body {
 /* Animation */
 .container .user:focus {
     border: 2px solid darkviolet;
+    outline: none;
     width: 270px;
     transition: all 0.7s;
 }
 
 .container .pw:focus {
     border: 2px solid darkviolet;
+    outline: none;
     width: 270px;
     transition: all 0.7s;
 }
 
 .container .login:hover {
-    font-weight: bold;
-    font-size: 15px;
-    background: plum;
-    border: plum;
+    /* font-weight: bold; */
+    /* font-size: 15px; */
+    color: white;
+    background-color: darkviolet;
 }
 
 .container a:hover{
